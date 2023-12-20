@@ -50,17 +50,19 @@ ul {
 .address-link:focus {
   color: #404bbf;
 }
+.main-section-one {
+  background: #2e2f42;
+}
 .main-title-effective {
-  color: var(--WHITE, #fff);
+  color: #fff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 61.07; /* 107.143% */
   letter-spacing: 0.02em;
-  background: #2e2f42;
 }
 .main-button {
-  color: var(--WHITE, #fff);
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -80,5 +82,81 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.main-paragraph,
+.paragraph-section-three,
+.paragraph-section-four {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.main-section-three {
+  background-color: #f4f4fd;
+}
+.main-title-team {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-three-img {
+  display: inline-flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px, 0px 1px 1px 0px, 0px 1px 6px 0px;
+}
+.main-title-portfolio {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-four-img {
+  display: flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  border: 1px #e7e9fc;
+  background: #fff;
+}
+.footer-page {
+  background: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.span-web {
+  color: #4d5ae5;
+}
+.footer-paragraph {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
