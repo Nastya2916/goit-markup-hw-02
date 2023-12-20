@@ -114,8 +114,6 @@ ul {
   text-transform: capitalize;
 }
 .section-three-img {
-  padding-bottom: 32px;
-  justify-content: center;
   background: #fff;
 }
 .main-title-portfolio {
@@ -128,9 +126,6 @@ ul {
   text-transform: capitalize;
 }
 .section-four-img {
-  padding-bottom: 32px;
-  flex-shrink: 0;
-  border: 1px #e7e9fc;
   background: #fff;
 }
 .footer-page {
