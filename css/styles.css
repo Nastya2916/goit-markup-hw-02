@@ -22,7 +22,7 @@ ul {
   list-style: none;
 }
 
-.headr-span {
+.header-span {
   color: #2e2f42;
 }
 .header-menu-link {
@@ -129,7 +129,6 @@ ul {
 }
 .section-four-img {
   padding-bottom: 32px;
-  align-items: flex-start;
   flex-shrink: 0;
   border: 1px #e7e9fc;
   background: #fff;
